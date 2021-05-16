@@ -13,7 +13,7 @@ into
 ```
 @ApiProperty({ type: [FurOtherDto] })
  ```
-the attributes in fur-other.dto.ts shows up. I belive this is a bug when showing nested object. I found this issue https://github.com/nestjs/swagger/issues/724 and i think, it's not been resolved yet. Thanks 
+the attributes in fur-other.dto.ts shows up. I believe this is a bug when showing nested object. I found this issue https://github.com/nestjs/swagger/issues/724 and i think, it hasn't been resolved yet. Thanks 
 
 
 ## Installation
