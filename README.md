@@ -4,7 +4,7 @@
 
 ## Description
 
-I found there is a bug when there are 3 level DTOs nested object. The swagger docs unable to show the attributes. In swagger docs, attribute 'others' actually should be showing attributes in fur-other.dto.ts attribute instead of a string in array of 'fur_types'. But when i try to change
+I found there is a bug when there are 3 level DTOs nested object. The swagger docs unable to show the attributes. In swagger docs, attribute 'others' actually should be showing attributes in fur-other.dto.ts attribute instead of a string in array of 'fur_types'. But when i try to change on fur-type.dto.ts
 
 ```
  @ApiProperty({ type: FurOtherDto })
